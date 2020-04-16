@@ -1,0 +1,46 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://www.heineken.com/ie/~/resources/heineken/ireland/liveyourmusic/new/key-visual-landing-page-1600-x-1600-px.jpg?v=20181212_134446&jq=60&process=backgrounddim|20&w=720&h=450&la=en-IE&hash=D38EEAB6BEAFE73A1302AF1C8D622EDC97F152AD');
+}
+.block_container {
+    width: 600px;
+    position: absolute;
+    z-index: 100;
+    background: cadetblue;
+    border-radius: 30px;
+    left: 400px;
+    top: 100px;
+}
+.key {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 30px;
+    font-size: 30px;
+    padding: 10px;
+    transition: all 0.06s;
+    width: 100px;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.keys{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sound {
+  font-size: 20px;
+  color: yellow;
+}
+.playing {
+    transform: scale(1.1);
+    border-color: yellow;
+    box-shadow: 0 0 10px #ffc600;
+}
